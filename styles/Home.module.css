@@ -1,11 +1,14 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
+
+.main_container {
+  min-height: 100vh;
+  width: 1000px;
+  border: 1px solid;
+}
+
 
 .title a {
   color: #0070f3;
@@ -68,6 +71,15 @@
   border-color: #0070f3;
 }
 
+.color_cc3d30 {
+  color: #cc3d30;
+}
+
+.radius_avatar {
+  border-radius: 200%;
+  object-fit: cover;
+}
+
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
@@ -81,6 +93,10 @@
 
 .logo {
   height: 1em;
+}
+
+.text_yellow {
+  color: red;
 }
 
 @media (max-width: 600px) {

@@ -15,16 +15,13 @@ a {
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 h1,
 h2,
 p,
 ul {
   margin: 0;
+  font-size: 12px;
 }
 
 ul {
@@ -35,4 +32,10 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+}
+
+
+.flex_justify_center {
+  display: flex;
+  justify-content: center;
 }
