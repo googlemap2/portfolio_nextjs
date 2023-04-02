@@ -1,4 +1,3 @@
-import React from "react";
 
 export default function text({ data }) {
   const listItems = data.map((item) => (

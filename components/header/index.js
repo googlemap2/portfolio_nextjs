@@ -26,7 +26,7 @@ export default function index() {
   ];
   return (
     <header style={{ display: "flex" }}>
-      <div style={{ flex: 1 }} className={styles.flex_justify_center}>
+      <div style={{ flex: 1 }} className="flex_justify_center">
         <Image
           className={styles.radius_avatar}
           src="/img/50d0501203c0cf9e96d1.jpg"
