@@ -75,6 +75,26 @@
   color: #cc3d30;
 }
 
+.font_size19 {
+  font-size: 19px;
+}
+
+.font_size18 {
+  font-size: 18px;
+}
+
+.font_size15 {
+  font-size: 15px;
+}
+
+.font_size14 {
+  font-size: 15px;
+}
+
+.padding_left_5px {
+  padding-left: 5px;
+}
+
 .radius_avatar {
   border-radius: 200%;
   object-fit: cover;

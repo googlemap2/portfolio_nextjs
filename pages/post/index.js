@@ -8,7 +8,9 @@ import BodyComponent from "../../components/body";
 export default function index({ textProp }) {
   return (
     <div className={styles.container}>
-      <div className={styles.main_container}>
+      <div
+        className={styles.main_container}
+        style={{ backgroundColor: "#ffff" }}>
         <HeaderComponent />
         <BodyComponent />
         <FooterComponent />
